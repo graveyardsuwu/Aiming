@@ -23,7 +23,7 @@ if (AutoShow == nil) then
     AutoShow = true
 end
 local Window = Library:CreateWindow({
-    Title = "epic hax",
+    Title = "HOMICIDE.CC v0.1 (BETA)",
     Center = true,
     AutoShow = AutoShow
 })
