@@ -1,5 +1,3 @@
--- // Dependencies
-
 local Aiming = getgenv().Aiming
 if (not Aiming) then
     Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/graveyardsuwu/Aiming/main/Load.lua"))()()
@@ -18,11 +16,6 @@ local AutoShow = Aiming.GUIAutoShow
 if (AutoShow == nil) then
     AutoShow = true
 end
-local Window = Library:CreateWindow({
-    Title = "HOMICIDE.CC v0.1 (BETA)",
-    Center = true,
-    AutoShow = AutoShow
-})
 
 -- //
 local AimingTab = Window:AddTab("Aiming")
