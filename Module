@@ -97,7 +97,7 @@ local AimingSettings = {
 
     FOVSettings = {
         Circle = Drawingnew("Circle"),
-        Enabled = true,
+        Enabled = false,
         Visible = false,
         Type = "Static",
         Scale = 60,
