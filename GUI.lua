@@ -1,8 +1,4 @@
 -- // Dependencies
-local LinoriaRepo = "https://raw.githubusercontent.com/graveyardsuwu/LinoriaLib/main/"
-local Library = loadstring(game:HttpGet(LinoriaRepo .. "Library.lua"))()
-local ThemeManager = loadstring(game:HttpGet(LinoriaRepo .. "addons/ThemeManager.lua"))()
-local SaveManager = loadstring(game:HttpGet(LinoriaRepo .. "addons/SaveManager.lua"))()
 
 local Aiming = getgenv().Aiming
 if (not Aiming) then
