@@ -1,16 +1,8 @@
+-- // Dependencies
 local LinoriaRepo = "https://raw.githubusercontent.com/graveyardsuwu/LinoriaLib/main/"
 local Library = loadstring(game:HttpGet(LinoriaRepo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(LinoriaRepo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(LinoriaRepo .. "addons/SaveManager.lua"))()
-
-if (AutoShow == nil) then
-    AutoShow = true
-end
-local Window = Library:CreateWindow({
-    Title = "HOMICIDE.CC v0.1 (BETA)",
-    Center = true,
-    AutoShow = AutoShow
-})
 
 local Aiming = getgenv().Aiming
 if (not Aiming) then
@@ -30,6 +22,11 @@ local AutoShow = Aiming.GUIAutoShow
 if (AutoShow == nil) then
     AutoShow = true
 end
+local Window = Library:CreateWindow({
+    Title = "epic hax",
+    Center = true,
+    AutoShow = AutoShow
+})
 
 -- //
 local AimingTab = Window:AddTab("Aiming")
